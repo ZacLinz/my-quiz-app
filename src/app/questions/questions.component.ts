@@ -15,7 +15,7 @@ export class QuestionsComponent implements OnInit {
 
   private quiz: Quiz;
   private answers: Answers;
-  private questioons: Question[];
+  private questions: Question[];
   private currentQuestionIndex: number;
 
   private showResults = false;
@@ -24,7 +24,7 @@ export class QuestionsComponent implements OnInit {
 
   ngOnInit() {
 
-    this.questionsService.getQuestions(this.route.snapshot.params.quizId)
+    this.questionsService.getQuestion(this.route.snapshot.params.quizId)
       .subscribe(questions => {
         this.questions = questions;
         this.answers = new Answers();
@@ -52,5 +52,5 @@ export class QuestionsComponent implements OnInit {
     this.currentQuestionIndex = undefined;
   }
 
-  
+
 }

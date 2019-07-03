@@ -10,6 +10,7 @@ import { ResultsComponent } from './results/results.component';
 import { RouterModule, Routes } from '@angular/router';
 import { QuestionsComponent } from './questions/questions.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes =[
   { path: 'welcome', component: WelcomeComponent },
@@ -29,7 +30,8 @@ const appRoutes: Routes =[
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
