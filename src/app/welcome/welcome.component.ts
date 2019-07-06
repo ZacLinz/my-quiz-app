@@ -9,7 +9,7 @@ import { Quiz } from '../quiz.model'
 })
 export class WelcomeComponent implements OnInit {
 
-  private quiz: Quiz;
+  quiz: Quiz[];
 
   constructor(private questionsService: QuestionsService) {}
 
@@ -21,4 +21,7 @@ export class WelcomeComponent implements OnInit {
       })
   }
 
+  reset(){
+    this.quiz=undefined
+  }
 }

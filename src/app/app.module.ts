@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { QuestionFormComponent } from './question-form/question-form.component';
@@ -31,7 +32,8 @@ const appRoutes: Routes =[
     HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot(appRoutes),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

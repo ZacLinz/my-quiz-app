@@ -25,8 +25,4 @@ export class QuestionsService {
       })
     )
   }
-
-  public getJSON(fileId: string) {
-    return this.http.get(`./assets/${fileId}.json`) as Observable<any>;
-  }
 }
