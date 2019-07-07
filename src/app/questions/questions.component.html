@@ -1,6 +1,6 @@
 <div *ngIf="quiz && !questions" class="spinner-grow text-primary"></div>
 
-<div class="mat-app-background" *ngIf="questions">
+<div *ngIf="questions">
 
   <div class="questions" *ngIf="!showResults">
     <app-question-form
@@ -9,7 +9,7 @@
     </app-question-form>
 
     <button
-      class="btn btn-success"
+      class="btn btn-success btn-primary"
       (click)="nextOrViewResults()"
       [disabled]="!answers.values[currentQuestionIndex]">
       {{currentQuestionIndex === questions.length -1 ? 'View results' : 'Next'}}</button>

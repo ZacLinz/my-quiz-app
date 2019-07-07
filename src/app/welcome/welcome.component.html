@@ -1,12 +1,14 @@
-<div class="mat-app-background">
+<div>
   <h2> Quizzes</h2>
-  <div class="list" *ngFor="let q of quiz">
+  <div class="mat-app-background" *ngFor="let q of quiz">
     <table style="width:50%">
       <tr>
         <th>{{q.label}}</th>
         <th>{{q.description}}</th>
         <th>
-          <a routerLink="/{{q.name}}" class="btn btn-primary">Select this quiz</a>
+          <button class="btn btn-primary">
+            <a routerLink="/{{q.name}}" class="btn btn-primary">Select this quiz</a>
+          </button>
         </th>
       </tr>
     </table>

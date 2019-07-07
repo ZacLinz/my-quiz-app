@@ -1,7 +1,9 @@
-<div class="mat-app-background">
+<div>
   <h2>Results</h2>
-  <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+  <div class="answer mat-app-background" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
     {{a.value}}
   </div>
-  <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+  <button class="btn btn-primary">
+    <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+  </button>
 </div>
