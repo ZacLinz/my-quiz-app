@@ -1,16 +1,14 @@
 <div>
   <h2> Quizzes</h2>
   <div class="mat-app-background" *ngFor="let q of quiz">
-    <table style="width:50%">
-      <tr>
-        <th>{{q.label}}</th>
-        <th>{{q.description}}</th>
-        <th>
+    <mat-card>
+        <mat-card-title>{{q.label}}</mat-card-title>
+        <mat-card-subtitle>{{q.description}}</mat-card-subtitle>
+        <mat-card-actions>
           <button class="btn btn-primary">
             <a routerLink="/{{q.name}}" class="btn btn-primary">Select this quiz</a>
           </button>
-        </th>
-      </tr>
-    </table>
+        </mat-card-actions>
+    </mat-card>
   </div>
 </div>
