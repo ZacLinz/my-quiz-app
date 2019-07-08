@@ -1,6 +1,6 @@
 <div>
   <h2> Quizzes</h2>
-  <div class="mat-app-background" *ngFor="let q of quiz">
+  <div *ngFor="let q of quiz">
     <mat-card>
         <mat-card-title>{{q.label}}</mat-card-title>
         <mat-card-subtitle>{{q.description}}</mat-card-subtitle>

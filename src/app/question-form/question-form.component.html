@@ -1,4 +1,4 @@
-<mat-card class="quiz" *ngIf="question">
+<div class="quiz" *ngIf="question">
   <mat-card-title>{{question.label}}</mat-card-title>
   <form [formGroup]="form">
     <mat-card-content class="form-group mat-app-background">
@@ -8,4 +8,4 @@
       </label>
     </mat-card-content>
   </form>
-</mat-card>
+</div>
