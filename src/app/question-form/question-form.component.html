@@ -1,9 +1,5 @@
 <div class="quiz" *ngIf="question">
-<<<<<<< HEAD
   <h2>{{question.label}}</h2>
-=======
-  <mat-card-title>{{question.label}}</mat-card-title>
->>>>>>> master
   <form [formGroup]="form">
     <mat-card-content class="form-group mat-app-background">
       <label *ngFor="let choice of question.choices">
