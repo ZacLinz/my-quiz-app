@@ -11,7 +11,7 @@ export class WelcomeComponent implements OnInit {
 
   quiz: Quiz[];
 
-  constructor(private questionsService: QuestionsService) {}
+  constructor(public questionsService: QuestionsService) {}
 
   ngOnInit() {
 
