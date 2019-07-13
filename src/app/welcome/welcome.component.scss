@@ -1,5 +1,8 @@
+body{
+  background-color: #E8F75F;
+}
 .mat-app-background{
-  background-color: #D644F3;
+  background-color: #000057;
 }
 
 .btn-primary{
@@ -7,5 +10,14 @@
 }
 
 mat-card{
-  width: 128px
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.title{
+  margin: auto;
+  background-color: #000057;
+  color: white;
 }
