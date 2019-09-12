@@ -6,9 +6,15 @@
     "fileName": "maths.json"
   },
   {
-    "label": "French",
-    "name": "french",
-    "description": "Questions about french",
-    "fileName": "french.json"
+    "label": "Video Games",
+    "name": "video games",
+    "description": "Questions about video games",
+    "fileName": "videoGames.json"
+  },
+  {
+    "label": "Super Mario",
+    "name": "Super Mario",
+    "description": "Questions about the legendary Mario",
+    "fileName": "mario.json"
   }
 ]
