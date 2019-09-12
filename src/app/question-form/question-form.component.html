@@ -4,7 +4,7 @@
     <mat-card-content class="form-group mat-app-background">
       <label *ngFor="let choice of question.choices">
         <input type="radio" [value]="choice" formControlName="choice">
-          <span>{{choice.value}}</span>
+          {{choice.value}}<br>
       </label>
     </mat-card-content>
   </form>
