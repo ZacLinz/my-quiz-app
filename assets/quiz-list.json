@@ -7,13 +7,13 @@
   },
   {
     "label": "Video Games",
-    "name": "video games",
+    "name": "videoGames",
     "description": "Questions about video games",
     "fileName": "videoGames.json"
   },
   {
     "label": "Super Mario",
-    "name": "Super Mario",
+    "name": "mario",
     "description": "Questions about the legendary Mario",
     "fileName": "mario.json"
   }
