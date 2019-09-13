@@ -1,11 +1,11 @@
 [
   {
-    "label": "What was the first video game ever created?",
+    "label": "What is the name of the main enemies usually fought in the series?",
     "choices": [
-      {"value": "pong", "correct": true},
-      {"value": "Super Mario Bros.", "correct": false},
-      {"value": "Sonic the Hedgehog", "correct": false},
-      {"value": "Crash Bandioot", "correct": false}
+      {"value": "Goombas", "correct": true},
+      {"value": "Bokoblins", "correct": false},
+      {"value": "Waddle Dees", "correct": false},
+      {"value": "Pikachu", "correct": false}
     ]
   },
   {
